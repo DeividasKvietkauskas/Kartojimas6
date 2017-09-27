@@ -1,0 +1,14 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    double p=3.14;
+    double r, s;
+    cout << "Koks skritulio spindulys?: "; cin >> r;
+    s=(r*r)*p;
+    cout << "Skriltulio plotas - " << s <<endl;
+
+    return 0;
+}
